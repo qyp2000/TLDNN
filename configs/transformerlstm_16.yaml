@@ -1,0 +1,24 @@
+modes:  # 选择网络、损失函数，是否训练
+    method: 'TransformerLSTM'
+    path: 'best'
+    loss: 'loss_CE'
+    train: True
+    ddp: False
+data_settings:  # 数据读取载入方式，用于设置data_loader
+    dataset: 'RML2016'
+    Xmode:
+        type: 'AP'
+        options:
+            IQ_norm: False  # 归一化到[0, 1]
+            zero_mask: False
+            random_mix: False
+    mod_type: ['8PSK', 'AM-DSB', 'AM-SSB', 'BPSK', 'CPFSK', 'GFSK', 'PAM4', 'QAM16', 'QAM64', 'QPSK', 'WBFM']
+opt_params:  # 网络训练参数
+    batch_size: 128
+    epochs: 150
+    lr: 1e-3
+    workers: 8
+    seed: 1
+    gpu: 0
+    cpu: False
+    early_stop: False

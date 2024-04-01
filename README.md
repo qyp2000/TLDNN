@@ -1,5 +1,5 @@
 # README
-This is the PyTorch implementation of paper “TLDNN: A Transformer-based Hybrid Neural Network for Modulation Recognition”.
+This is the PyTorch implementation of paper “Enhancing Automatic Modulation Recognition through Robust Global Feature Extraction”.
 
 # Requirements
 ```

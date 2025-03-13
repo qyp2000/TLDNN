@@ -1,6 +1,8 @@
 # README
 This is the PyTorch implementation of paper “Enhancing Automatic Modulation Recognition through Robust Global Feature Extraction”.
 
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2401.01056-b31b1b.svg)](https://arxiv.org/abs/2401.01056)&nbsp;
+
 # Requirements
 ```
 pytorch
